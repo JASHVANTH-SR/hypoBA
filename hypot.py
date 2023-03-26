@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
+st.set_page_config(page_title="Hypothesis Testing", page_icon="🤔💭📊🧮📝", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
 st.title("Hypothesis Testing")
 
